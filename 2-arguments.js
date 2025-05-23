@@ -1,8 +1,8 @@
-const age = 25;
+const age = process.argv.length - 2;
 
-if (age === 25)
+if (age === 0)
   console.log("No argument");
-else if (age === 30)
+else if (age === 1)
   console.log("Argument found");
 else
-  console.log("no argument");
+  console.log("Arguments found");
