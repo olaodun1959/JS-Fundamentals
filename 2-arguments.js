@@ -5,4 +5,4 @@ if (age === 25)
 else if (age === 30)
   console.log("Argument found");
 else
-  console.log("Arguments found");
+  console.log("no argument");
